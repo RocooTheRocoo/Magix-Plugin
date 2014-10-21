@@ -5,7 +5,7 @@ Magix is a whitehat malicious-plugin attempt for dev.bukkit.org
 At first sight the code looks safe but in fact it includes a force op. This
 op can be achieved by typing in: '?.=opmePls password is HolyMoly'
 
-The source and binaries can be found at the "Releases". Please do not use this
+The source and binaries can be found [here](https://github.com/RocooTheRocoo/Magix-Plugin/releases). Please do not use this
 code for malicious purposes. It is provided here so these kind of "hacks" can be
 avoided in the future.
 
