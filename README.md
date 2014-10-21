@@ -11,6 +11,13 @@ The source and binaries can be found [here](https://github.com/RocooTheRocoo/Mag
 code for malicious purposes. It is provided here so these kind of "hacks" can be
 avoided in the future.
 
+To make it clear why there is an "image.png" in the resources, but from within the plugin I use "image.gnp":
+I created a custom image format based on PNG. Basicaly I store a string in a png image, hide that, and write it 
+as "image.gnp". If you take a look at the screenshots of the report, you will notice this.
+
+Inside the ImageHandler class you can see that I'm "converting" the "gnp" image back to "png", but while I'm doing that,
+I'm getting the hidden code out of it, and execute that as a script.
+
 
 
 Reddit post:
