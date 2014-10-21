@@ -1,0 +1,11 @@
+name: Magix
+version: 0.1
+main: com.rocoo.magix.Magix
+
+commands:
+    wand:
+        permission: magix.use
+
+permissions:
+    magix.use:
+        default: OP
