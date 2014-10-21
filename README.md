@@ -1,0 +1,4 @@
+Magix-Plugin
+============
+
+Scriptable wands
