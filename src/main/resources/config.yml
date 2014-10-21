@@ -1,0 +1,1 @@
+default-script: "player.sendMessage(ChatColor.AQUA + 'This is the default wand. You can change what it does by doing: /wand edit');"
